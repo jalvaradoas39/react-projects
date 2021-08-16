@@ -1,19 +1,19 @@
 {
-  "name": "react-projects",
-  "version": "1.0.0",
-  "description": "React Projects",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jalvaradoas39/react-projects.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jalvaradoas39/react-projects/issues"
-  },
-  "homepage": "https://github.com/jalvaradoas39/react-projects#readme"
+	"name": "react-projects",
+	"version": "1.0.0",
+	"description": "React Projects",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/jalvaradoas39/react-projects.git"
+	},
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/jalvaradoas39/react-projects/issues"
+	},
+	"homepage": "https://github.com/jalvaradoas39/react-projects#readme"
 }
