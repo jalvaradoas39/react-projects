@@ -14,10 +14,6 @@ function App() {
 		setMenuItems(newItems);
 	};
 
-	const removeFilter = () => {
-		setMenuItems(items);
-	};
-
 	return (
 		<main>
 			<section className='menu section'>
