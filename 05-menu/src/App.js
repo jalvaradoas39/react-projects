@@ -3,9 +3,13 @@ import Menu from './Menu';
 import Categories from './Categories';
 import items from './data';
 
+let allCategories = items.map(item => item.category);
+// grab only unique categories then spread unique categories into an array, and append 'all' category to front
+allCategories = ['all', ...new Set(allCategories)];
+
 function App() {
 	const [menuItems, setMenuItems] = useState(items);
-	const [categories, setCategories] = useState([]);
+	const [categories, setCategories] = useState(allCategories);
 
 	const filterItems = category => {
 		if (category === 'all') return setMenuItems(items);
@@ -21,7 +25,7 @@ function App() {
 					<h2>Our Menu</h2>
 					<div className='underline'></div>
 				</div>
-				<Categories filterItems={filterItems} />
+				<Categories categories={categories} filterItems={filterItems} />
 				<Menu items={menuItems} />
 			</section>
 		</main>
